@@ -7,7 +7,7 @@ This project will analyze the Energy dataset using visualizations and graphs cre
 
 ## 📋Abstract
 
-Because of the transition towards the Internet of Everything, predicting the energy required by household appliances is a difficult study topic. The energy consumptions of appliances were forecasted in this work using an ML model-based strategy that employed the linear, lasso, ridge, decision tree, random forest, gradient boosting, xgb, adaboost, and lgbm regression algorithms. The current study has two goals: to maximise the prediction performance of the algorithms and to minimize the number of selected features. The proposed method was evaluated on an appliance energy prediction dataset taken from Reliable Prognosis' public dataset.
+Because of the transition towards the Internet of Everything, predicting the energy required by household appliances is a difficult study topic. The energy consumptions of appliances were forecasted in this work using an ML model-based strategy that employed the linear, lasso, ridge, decision tree, random forest, gradient boosting, xgb, adaboost, and lgbm regression algorithms. The current study has two goals: to maximize the prediction performance of the algorithms and to minimize the number of selected features. The proposed method was evaluated on an appliance energy prediction dataset taken from Reliable Prognosis' public dataset.
 
 ## 📋Dataset information 
 
@@ -100,10 +100,11 @@ In the final phase, we will tune the hyperparameters of our topmost model to see
 * Linear Regression, Lasso Regression, Ridge Regression,DecisionTree Regressor, Random Forest Regressor, XGBoost, Light Gradient Boosting Regressor,StackingRegressor are used to predict household appliance energy consumption.
 * We compare and evaluate the best model with the lowest error and the greatest R-squared score after suitable preprocessing and fitting the fourteen models.
 * T6 and T_out, T9 and T7 had a high association with each other, thus we deleted T6 and T9. When examining the influence of the Random Variable attribute, the linear models assigned the random variable near zero weights, negating its influence in predicting the target variable.
-* Random Forrest Regressor was discovered to be the best performing model, with an R-squared value of 0.716915
-* Appliances	hu_build_out	Windspeed	Tdewpoint	month	weekday	hour	Humidity_difference  all play a part in energy prediction.
+
 
 * Inside room temperature and humidity has high variance inflation factor(VIF) so,we had to drop them
 * Light consumption was evaluated highly when all factors were used. When evaluating different predictor subgroups, eliminating light usage did not appear to have a substantial influence. This could indicate that other characteristics are well connected with light energy usage.
 * The pressure's significant prediction power could be attributed to its influence on wind speed and higher rainfall probability, which could potentially raise the occupancy of the residence.
 * Because this dataset involves a temporal component, we believe that employing temporal Series Analysis techniques will result in superior results.
+* ExtraTreeRegressor was discovered to be the best performing model, with an R-squared value of 0.7362
+* Appliances	hu_build_out	Windspeed	Tdewpoint	month	weekday	hour	Humidity_difference  all play a part in energy prediction.
