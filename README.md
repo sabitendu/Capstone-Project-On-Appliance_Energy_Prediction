@@ -1,4 +1,6 @@
 # Capstone-Project-On-Appliance_Energy_Prediction
+![images (5)](https://github.com/sabitendu/Capstone-Project-On-Appliance_Energy_Prediction/assets/117887431/5d55233b-f1d9-400c-aaf9-196c7314304c)
+
 ## 📋 Introduction
 
 In today's world, the use of energy is quickly expanding. We are experiencing a lack of energy as a result of increased energy consumption in some regions of the world, which is causing environmental damage. We are dealing with excessive energy consumption in home appliances in some places, so our main goal in this project is to analyze what factors are influencing the increasing energy consumption of home appliances, how we can reduce energy consumption of home appliances, and predict energy consumption of appliances using regression models.
